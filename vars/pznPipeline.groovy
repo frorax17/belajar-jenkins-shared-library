@@ -1,6 +1,6 @@
 def call(Map config){
     if(config.type == "maven"){
-        mavenPipline()
+        mavenPipeline()
     }else{
         pipeline{
             agent any
